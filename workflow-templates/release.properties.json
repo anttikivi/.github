@@ -1,0 +1,5 @@
+{
+  "name": "Release workflow",
+  "description": "The workflow for performing the common actions after publishing a new release",
+  "iconName": "package"
+}
