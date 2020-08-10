@@ -1,0 +1,5 @@
+{
+  "name": "Main workflow",
+  "description": "The workflow for performing the common actions for each push and pull request",
+  "iconName": "package"
+}
