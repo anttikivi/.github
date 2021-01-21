@@ -50,8 +50,8 @@ Explain the problem and include additional details to help the maintainers repro
 * **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copiable snippets, which you use in those examples. If you’re providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics#multiple-lines).
 * **Describe the behaviour you observed after following the steps** and point out what exactly is the problem with that behaviour.
 * **Explain which behaviour you expected to see instead and why.**
-* **Include screenshots, animated GIFs, and video captures** which show you following the described steps and clearly demonstrate the problem. You can use [this tool](http://www.cockos.com/licecap) to record GIFs on macOS and Windows and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- TODO include instructions for including the input recording here. -->
-* **If you’re reporting that the project crashed**, include a crash report from the operating system. On macOS, the crash report will be available in `Console.app` under ‘Diagnostic and usage information’ > ‘User diagnostic reports’. Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), or put it in a [gist](https://gist.github.com) and provide link to that gist.
+* **Include screenshots, animated GIFs, and video captures** which show you following the described steps and demonstrate the problem. You can use [this tool](http://www.cockos.com/licecap) to record GIFs on macOS and Windows and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- TODO include instructions for including the input recording here. -->
+* **If you’re reporting that the project crashed**, include a crash report from the operating system. On macOS, the crash report will be available in `Console.app` under ‘Diagnostic and usage information’ > ‘User diagnostic reports’. Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), or put it in a [gist](https://gist.github.com) and provide a link to that gist.
 * **If the problem is related to performance or memory**, include a [CPU profile capture](#) with your report. <!-- TODO Include link -->
 * **If the problem wasn’t triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
 
@@ -99,7 +99,7 @@ Unsure where to begin contributing to the projects? You can start by looking thr
 * [`good first issue`][good-first-issue]: issues which should only require a few lines of code and a test or two.
 * [`help wanted`][help-wanted]: issues which should be a bit more involved than `good first issue` issues.
 
-Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+Both issue lists are sorted by the total number of comments. While not perfect, the number of comments is a reasonable proxy for the impact a given change will have.
 
 ### Pull Requests
 
@@ -111,14 +111,14 @@ Please follow these steps to have your contribution considered by the maintainer
 
     <details><summary>What if the status checks are failing?</summary>If a status check is failing and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
 
-While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewers may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
+While the prerequisites above must be satisfied before having your pull request reviewed, the reviewers may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
 ## Style Guides
 
 ### Git Commit Messages
 
 * Use the present tense (‘Add feature’, not ‘Added feature’).
-* Use the imperative mood (‘Move cursor to...’ not ‘Moves cursor to...’).
+* Use the imperative mood (‘Move the cursor to...’ not ‘Moves the cursor to...’).
 * Try to limit the first line to 72 characters or fewer.
 * Reference issues and pull requests liberally after the first line.
 
