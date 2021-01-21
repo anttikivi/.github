@@ -6,7 +6,7 @@ If you believe you have found a security vulnerability in any of our repositorie
 
 ## Reporting a Vulnerability
 
-Please do not report security vulnerabilities through public GitHub issues.
+**Please do not report security vulnerabilities through public GitHub issues.**
 
 Instead, please report them to security@visiosto.fi.
 
