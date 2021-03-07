@@ -117,10 +117,12 @@ While the prerequisites above must be satisfied before having your pull request 
 
 ### Git Commit Messages
 
+Git commit messages adhere to [Conventional Commits](https://conventionalcommits.org). In addition to the Conventional Commits specification, please
+
 * Use the present tense (‘Add feature’, not ‘Added feature’).
-* Use the imperative mood (‘Move the cursor to...’ not ‘Moves the cursor to...’).
+* Use the imperative mood (‘Move cursor to...’ not ‘Moves cursor to...’).
 * Try to limit the first line to 72 characters or fewer.
-* Reference issues and pull requests liberally after the first line.
+* Reference issues and pull requests liberally in the commit footer.
 
 [good-first-issue]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Agood+first+issue+user%anttikivi+sort%3Acomments-desc
 [help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp+wanted+user%anttikivi+sort%3Acomments-desc
